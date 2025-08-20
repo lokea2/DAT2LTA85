@@ -10,7 +10,7 @@ I am not a professional programmer, so the code is kept in a single file. My goa
 
 ---
 
-## Usage (example for Combat Arms)
+## Usage
 
 1. Extract resources from the game (rez) and place them into the **Game** folder of the DEdit editor.  
 2. Copy maps into the **Worlds** folder.  
@@ -28,7 +28,8 @@ If using the Python script:
 python dat2lta85.py %mapname%.dat -v1
 ```  
 
-The `-v1` flag is required because Combat Arms uses maps with tangent and binormal.  
+-v1 — use this for DAT maps with tangent and binormal (Combat Arms, Crossfire, NOLF2, etc).
+-v2 — use this for DAT maps without tangent and binormal (Contract Jack, Tron 2.0, etc).  
 
 ---
 
@@ -65,14 +66,6 @@ For proper FX handling, place additional files into the **Game** folder of DEdit
 The converter can also detect **Occluder** names.  
 - If the occluder is named **"Occluder"**, it is a regular occluder.  
 - If the name differs, it means it is used by a **DynamicOccluder** object.  
-
----
-
-## Why it might be useful
-
-- Enables editing of Crossfire and other Lithtech Jupiter maps.  
-- Useful for analyzing bot navigation and graphic systems on version 2.0 maps.  
-- Allows creating and distributing modified maps for the community.  
 
 ---
 
