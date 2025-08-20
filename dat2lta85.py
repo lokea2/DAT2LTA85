@@ -2419,7 +2419,7 @@ def main(dat_path, version_flag):
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:
-        print("Usage: dat2lta85.py <mapname.dat> -v1 | -v2")
+        print("Usage: dat2lta85 <mapname.dat> -v1 | -v2")
         sys.exit(1)
 
     dat_file_path = sys.argv[1]
@@ -2431,11 +2431,12 @@ if __name__ == "__main__":
 
     if version_flag not in ("-v1", "-v2"):
         print("Error: version flag must be -v1 or -v2")
-        print("Usage: dat2lta85.py <mapname.dat> -v1 | -v2")
+        print("Usage: dat2lta85 <mapname.dat> -v1 | -v2")
         print()
         print("Flags description:")
         print("  -v1   For Lithtech Jupiter v85 maps that use tangents and binormals.")
         print("  -v2   For Lithtech Jupiter v85 maps where tangents and binormals are absent.")
+        print("https://github.com/lokea2/DAT2LTA85")
         sys.exit(1)
 
     main(dat_file_path, version_flag)
