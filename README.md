@@ -1,6 +1,6 @@
 # dat2lta85
 
-**dat2lta85** is a converter from **DAT → LTA** map format for games built on the **Lithtech Jupiter v85 engine** (Crossfire, Combat Arms, NOLF2, Face of Mankind, Tron 2.0, Contract Jack, Dead or Alive Online and others).
+**dat2lta85** is a converter from **DAT → LTA** map format for games built on the **Lithtech Jupiter v85 engine** (Crossfire, Combat Arms, NOLF2, Face of Mankind, Tron 2.0, Contract Jack, DOB and others).
 
 The project is written in **Python** and inspired by:  
 - [Jldevictoria/lithdat](https://github.com/Jldevictoria/lithdat)  
