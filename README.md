@@ -57,19 +57,45 @@ After conversion, three files will appear in the folder:
 
 For proper FX handling, place additional files into the **Game** folder of DEdit.  
 
-For **Crossfire** and **Combat Arms**, this repository provides example FX files and maps to illustrate proper usage. You can place these files directly into your DEdit project for testing and conversion.  
+### For Combat Arms
 
-For other Lithtech Jupiter games, you should place the corresponding files from your game into the DEdit project, for example:  
-- `ClientFX.fxd`  
-- `CShell.dll`  
-- `Object.lto`  
-- Folders `ClientFX` and `Attributes` (if present)  
+This repository provides example FX files and maps to illustrate proper usage:
 
-All files must be in decrypted form to work correctly.  
+- **JUNK_FLEA.7z** — original map file for Combat Arms.  
+  [Download JUNK_FLEA.7z](https://www.mediafire.com/file/kwp9cdcf6pef9yl/JUNK_FLEA.7z/file)
+
+- **CAclassic_DEdit.7z** — DEdit project files for Combat Arms.  
+  [Download CAclassic_DEdit.7z](https://www.mediafire.com/file/7zbv05ozz6fwrea/CAclassic_DEdit.7z/file)
+
+Place these files into your DEdit project folder to test and convert maps.
+
+### For Crossfire
+
+This repository provides example FX files and maps to illustrate proper usage:
+
+- **MEXICO.lta** — original map file for Crossfire.  
+  [Download MEXICO.lta](https://www.mediafire.com/file/4glg53d64i0bsz2/MEXICO.lta/file)
+
+- **Crossfire_Dedit.7z** — DEdit project files for Crossfire.  
+  [Download Crossfire_Dedit.7z](https://www.mediafire.com/file/8im90f64u0q5497/Crossfire_Dedit.7z/file)
+
+Place these files into your DEdit project folder to test and convert maps.
+
+### For Other Lithtech Jupiter Games
+
+For other Lithtech Jupiter games, place the corresponding files from your game into the DEdit project, for example:
+
+- `ClientFX.fxd`
+- `CShell.dll`
+- `Object.lto`
+- Folders `ClientFX` and `Attributes` (if present)
+
+All files must be in decrypted form to work correctly.
 
 - If **CLIENTFX.FXF** and **CLIENTFX.FCF** contain valid FX, you can safely click **Yes** when opening the map in DEdit.  
 - If those FX are missing, choosing **Yes** will make DEdit delete all FX names from the map.  
-- If you choose **No**, the FX names will remain untouched. 
+- If you choose **No**, the FX names will remain untouched.  
+
 <img width="262" height="119" alt="12" src="https://github.com/user-attachments/assets/b4f47250-1088-4b6a-ad8b-5eb03a6c586f" />
 
 ---
