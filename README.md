@@ -29,6 +29,7 @@ python dat2lta85.py %mapname%.dat -v1
 ```  
 
 -v1 — use this for DAT maps with tangent and binormal (Combat Arms, Crossfire, NOLF2, etc).
+
 -v2 — use this for DAT maps without tangent and binormal (Contract Jack, Tron 2.0, etc).  
 
 ---
@@ -48,6 +49,7 @@ After conversion, three files will appear in the folder:
 - `mapname.lta` preserves **TextureEffect** for each brush if present.  
 - `mapname_PhysicsDATA.lta` contains other brush properties.  
 - All **RenderNode** and **WorldModel** objects are automatically assigned `Detail 0` and `AmbientLight 0 0 0`. For more accurate values, refer to the original **JUNK_FLEA** map which is available in open form.  
+<img width="882" height="570" alt="13" src="https://github.com/user-attachments/assets/26ce72f5-ee19-4e55-9c20-4585195c293c" />
 
 ---
 
@@ -55,9 +57,20 @@ After conversion, three files will appear in the folder:
 
 For proper FX handling, place additional files into the **Game** folder of DEdit.  
 
+For **Crossfire** and **Combat Arms**, this repository provides example FX files and maps to illustrate proper usage. You can place these files directly into your DEdit project for testing and conversion.  
+
+For other Lithtech Jupiter games, you should place the corresponding files from your game into the DEdit project, for example:  
+- `ClientFX.fxd`  
+- `CShell.dll`  
+- `Object.lto`  
+- Folders `ClientFX` and `Attributes` (if present)  
+
+All files must be in decrypted form to work correctly.  
+
 - If **CLIENTFX.FXF** and **CLIENTFX.FCF** contain valid FX, you can safely click **Yes** when opening the map in DEdit.  
 - If those FX are missing, choosing **Yes** will make DEdit delete all FX names from the map.  
-- If you choose **No**, the FX names will remain untouched.  
+- If you choose **No**, the FX names will remain untouched. 
+<img width="262" height="119" alt="12" src="https://github.com/user-attachments/assets/b4f47250-1088-4b6a-ad8b-5eb03a6c586f" />
 
 ---
 
