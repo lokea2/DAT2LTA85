@@ -169,7 +169,7 @@ Place these files into your DEdit project folder to test and convert maps.
 This repository provides example FX files and maps to illustrate proper usage:
 
 - **MEXICO.lta** — example map file for Crossfire. This is not the original map, but a version adjusted by me to serve as a reference for usage and testing in DEdit.
-  [Download MEXICO.lta](https://www.mediafire.com/file/4glg53d64i0bsz2/MEXICO.lta/file)
+  [Download TRANSPORTSHIP_PhysicsDATA.lta](https://www.mediafire.com/file/bpvijbcfs8uwove/TRANSPORTSHIP_PhysicsDATA.lta/file)
 
 - **Crossfire_Dedit.7z** — DEdit project files for Crossfire.
   [Download Crossfire_Dedit.7z](https://www.mediafire.com/file/8im90f64u0q5497/Crossfire_Dedit.7z/file)
